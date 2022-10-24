@@ -116,21 +116,25 @@ sudo apt install phpmyadmin
 - Open phpMyAdmin in browser
   ![My Image](./images/image16.png)
 
-  # CodeIgniter 3 Problem 
-  ```
-  sudo vim /etc/apache2/apache2.conf
-  ```
-  - Change this
+# CodeIgniter 3 Problem
+
+```
+sudo vim /etc/apache2/apache2.conf
+```
+
+- Change this
   ![My Image](./images/image17.png)
-  - To this
+- To this
   ![My Image](./images/image18.png)
 
 ```
 sudo systemctl restart apache2.service
 ```
+
 ```
 sudo a2enmod rewrite
 ```
+
 ```
 sudo systemctl restart apache2.service
 ```
