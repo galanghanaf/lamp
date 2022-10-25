@@ -138,3 +138,15 @@ sudo a2enmod rewrite
 ```
 sudo systemctl restart apache2.service
 ```
+
+# Laravel 9 Problem
+
+```
+sudo chmod 777 /var/www/html/laravel/storage
+```
+
+```
+vim /var/www/html/laravel/index.php
+```
+
+![My Image](./images/image19.png)
