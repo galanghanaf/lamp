@@ -1,4 +1,4 @@
-# My LAMP Setup on Ubuntu 22.04
+# Tested in Ubuntu 22.04
 
 ## Firewall
 
