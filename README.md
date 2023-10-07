@@ -92,7 +92,7 @@ sudo systemctl restart mariadb.service
 ## PHP
 
 ```
-sudo apt install php libapache2-mod-php php-mysql
+sudo apt install php7.4 libapache2-mod-php7.4 php7.4-bcmath php7.4-curl php7.4-json php7.4-mbstring php7.4-mysql php7.4-tokenizer php7.4-xml php7.4-zip php7.4-cli php7.4-fpm
 ```
 
 ![My Image](./images/image9.png)
@@ -115,6 +115,20 @@ sudo apt install phpmyadmin
   ![My Image](./images/image15.png)
 - Open phpMyAdmin in browser
   ![My Image](./images/image16.png)
+
+# Setup
+```
+sudo mkdir /var/www/html
+```
+```
+sudo chown -R $USER:$USER /var/www/html
+```
+```
+sudo chmod -R 755 /var/www/html
+```
+```
+sudo chown -R $USER:$USER /var/www/html
+```
 
 # CodeIgniter 3 Problem
 
