@@ -118,16 +118,10 @@ sudo apt install phpmyadmin
 
 # Setup
 ```
-sudo mkdir /var/www/html
-```
-```
 sudo chown -R $USER:$USER /var/www/html
 ```
 ```
 sudo chmod -R 755 /var/www/html
-```
-```
-sudo chown -R $USER:$USER /var/www/html
 ```
 
 # CodeIgniter 3 Problem
